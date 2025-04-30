@@ -635,4 +635,7 @@ textarea {
   .project-content .project3 p {
     font-size: 15px;
   }
+  * {
+    overflow-x: hidden;
+  }
 }
