@@ -674,7 +674,8 @@ textarea {
   }
   .project-content .project1 p,
   .project-content .project2 p,
-  .project-content .project3 p {
+  .project-content .project3 p,
+  .project-content .project4 p {
     font-size: 15px;
     transition: 0.2s;
   }
