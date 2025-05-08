@@ -250,19 +250,28 @@
           method="post"
         >
           <label for="fullName">Full Name</label>
-          <input type="text" placeholder="Surname FirstName" /><br />
+          <input
+            type="text"
+            name="Full-Name"
+            placeholder="Surname FirstName"
+          /><br />
           <label for="email">Email Address</label>
-          <input type="email" placeholder="example@email.com" /><br />
+          <input
+            type="email"
+            name="Email"
+            placeholder="example@email.com"
+          /><br />
           <label for="service" class="service">Service</label>
-          <select name="service" id="service">
-            <option value="0">Select a service</option>
-            <option value="1">Frontend Web Development</option>
-            <option value="2">AI Solutions</option>
-            <option value="2">Tech Education</option>
+          <select name="Service" id="service">
+            <option value="#">Select a service</option>
+            <option value="Web-Development">Frontend Web Development</option>
+            <option value="AI">AI Solutions</option>
+            <option value="Tech-Education">Tech Education</option>
           </select>
           <br />
           <label for="message">Message</label>
-          <textarea rows="10" cols="1"></textarea><br />
+          <textarea rows="10" name="Message" cols="1" name="Message"></textarea
+          ><br />
           <button type="submit">Get in touch</button>
         </form>
       </div>
