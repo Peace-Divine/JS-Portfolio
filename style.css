@@ -27,7 +27,7 @@ header .name {
   padding-left: 20px;
 }
 span {
-  font-size: 32px;
+  font-size: 20px;
   font-family: "Oleo Script", system-ui;
 }
 ul {
@@ -35,7 +35,7 @@ ul {
   display: flex;
 }
 li {
-  margin-left: 50px;
+  margin-left: 30px;
   font-family: "Montserrat", sans-serif;
 }
 a {
@@ -66,8 +66,8 @@ button:hover {
   transform: translateY(-5px);
 }
 .icon-btn {
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -75,7 +75,7 @@ button:hover {
   border-radius: 50%;
 }
 .icon-btn i {
-  font-size: 20px;
+  font-size: 10px;
 }
 .icon-btn i:first-child {
   display: none;
@@ -125,7 +125,7 @@ button:hover {
   -webkit-text-fill-color: transparent;
 }
 .home-text p {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 50px;
   color: #484e53;
 }
@@ -138,7 +138,7 @@ button:hover {
 .main-btn button {
   color: #484e53;
   border: 1px solid #484e53;
-  font-size: 18px;
+  font-size: 15px;
 }
 #about {
   width: 100%;
@@ -373,7 +373,7 @@ textarea {
   margin: 0 70px;
 }
 .footer-content h3 {
-  font-size: 50px;
+  font-size: 30px;
   margin: 10px;
 }
 .footer-content .email-btn {
@@ -416,7 +416,6 @@ textarea {
 }
 @media (max-width: 1850px) {
   .hero-content {
-    top: 50px;
     height: auto;
     transition: 0.2s;
   }
@@ -451,7 +450,7 @@ textarea {
 }
 @media (max-width: 1020px) {
   header {
-    padding: 33px 3% 15px;
+    padding: 10px 3%;
     transition: 0.2s;
   }
   .home-text h1 {
@@ -478,10 +477,6 @@ textarea {
   }
 }
 @media (max-width: 950px) {
-  header {
-    padding: 33px 3% 15px 0;
-    transition: 0.2s;
-  }
   .home-img img {
     height: 250px;
     margin-top: 60px;
@@ -495,8 +490,8 @@ textarea {
   }
   .scheduleBtn {
     padding: 10px 20px;
-    width: 50%;
-    margin: 50px auto 0;
+    margin: 50px 10px 0;
+    font-size: 10px;
     transition: 0.2s;
   }
   .menu-btn {
@@ -532,7 +527,6 @@ textarea {
   }
   .mobile-links li {
     cursor: pointer;
-    padding: 30px 0 0;
     transition: 0.2s;
   }
   .mobile-links li a:hover {
@@ -585,11 +579,11 @@ textarea {
   }
 }
 @media (max-width: 700px) {
-  header {
+  /* header {
     position: relative;
     padding: 20px 3%;
     transition: 0.2s;
-  }
+  } */
   .main-btn button {
     font-size: 15px;
     transition: 0.2s;
@@ -614,12 +608,12 @@ textarea {
 }
 @media only screen and (max-width: 600px) {
   .hero-content {
-    margin-bottom: 50px;
+    margin: 50px 0;
     transition: 0.2s;
   }
   .main-btn button {
     padding: 10px;
-    font-size: 15px;
+    font-size: 14px;
     transition: 0.2s;
   }
   .footer-content {
@@ -638,7 +632,6 @@ textarea {
   }
   .abt-content {
     padding: 0;
-    line-height: 1;
     transition: 0.2s;
   }
   .abt-content p {
@@ -748,7 +741,7 @@ textarea {
   }
   .home-img img {
     height: auto;
-    margin: 0;
+    margin: 20px 0 0;
   }
   .footer-bottom {
     margin: 5px;
